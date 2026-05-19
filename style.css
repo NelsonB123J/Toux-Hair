@@ -1063,6 +1063,7 @@ button {
     grid-template-columns: repeat(4, 1fr);
   }
 
+
   .gallery-item--wide {
     grid-column: span 2;
     aspect-ratio: 4/3;
@@ -1070,6 +1071,17 @@ button {
 
   .contact-form-wrap {
     padding: var(--sp-5);
+  }
+}
+
+@media (max-width: 639px) {
+  .hours-row {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+  }
+  .hours-row span{
+    font-size: 0.96999993875rem;
   }
 }
 
