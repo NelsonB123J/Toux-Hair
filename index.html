@@ -257,12 +257,35 @@
             <div class="contact-card">
               <div class="contact-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+                  <!-- Smartphone Body with rounded corners -->
+                  <rect x="5" y="2" width="14" height="20" rx="3" />
+                  
+                  <!-- Dynamic Speaker/Dynamic Island at the top -->
+                  <path d="M10 5h4" />
+                  
+                  <!-- Subtle action/ringing waves to give it a "live" feel -->
+                  <path d="M22 8c.66 1.33 1 2.67 1 4s-.34 2.67-1 4" />
                 </svg>
+
               </div>
               <div>
                 <h3 class="contact-detail-title">Phone</h3>
                 <a href="tel:+2348065106304" class="contact-phone-link">+234 806 510 6304</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <!-- The outer envelope body -->
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <!-- The inner fold of the envelope letter -->
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+
+              </div>
+              <div>
+                <h3 class="contact-detail-title">Email</h3>
+                <a href="mailto:nelsonbluejack08@gmail.com" class="contact-phone-link">nelsonbluejack08@gmail.com</a>
               </div>
             </div>
 
@@ -282,32 +305,7 @@
 
           <!-- Contact form column -->
           <div class="contact-form-wrap">
-            <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
-              <div class="form-group">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required autocomplete="name" />
-              </div>
-              <div class="form-group">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required autocomplete="email" />
-              </div>
-              <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell us about the look you want..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-gold form-submit">Send Message</button>
-            </form>
-
-            <!-- Shown by JS after successful submission -->
-            <div class="form-success" id="form-success" hidden aria-live="polite">
-              <div class="form-success-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
-              </div>
-              <h3>Message Sent!</h3>
-              <p>Thank you for reaching out. We'll get back to you shortly.</p>
-            </div>
+            <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Contact form">
           </div>
         </div>
       </div>
