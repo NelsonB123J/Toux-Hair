@@ -599,7 +599,7 @@ button {
   display: flex;
   align-items: flex-end;
   padding: var(--sp-2) var(--sp-3);
-  opacity: 0.3;
+  opacity: 0.7;
   transition: opacity var(--t-base);
 }
 
